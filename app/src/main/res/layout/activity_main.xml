@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.543" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnlog"
         android:layout_width="190dp"
         android:layout_height="48dp"
         android:text="Login"
@@ -45,7 +45,8 @@
         app:layout_constraintVertical_bias="0.664" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnsgn"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Signup"
